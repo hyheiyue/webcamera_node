@@ -1,0 +1,12 @@
+webcamera_node:
+  ros__parameters:
+    # 指定视频流的URL地址
+    stream_url: "http://192.168.2.122:4747/video"
+    # 使用sensor_data的质量服务
+    use_sensor_data_qos: true
+    # 设置相机的名称
+    camera_name: "narrow_stereo"
+    # 指定相机信息的URL地址
+    camera_info_url: "package://webcamera_node/config/camera_info.yaml"
+    # 启用调试模式
+    debug: true
