@@ -22,6 +22,7 @@ webcamera_node:
     camera_name: "narrow_stereo"
     camera_info_url: "package://webcamera_node/config/camera_info.yaml"
     debug: true
+    encoding: "bgr8"
 ```
 * config/camera_info.yaml    **A series of parameters for your camera，you can demarcate by**
 ```
