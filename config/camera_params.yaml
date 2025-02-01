@@ -1,7 +1,7 @@
 webcamera_node:
   ros__parameters:
     # 指定视频流的URL地址
-    stream_url: "http:///video"
+    stream_url: "http://192.168.2.122:4747/video"
     # 使用sensor_data的质量服务
     use_sensor_data_qos: true
     # 设置相机的名称
@@ -9,4 +9,6 @@ webcamera_node:
     # 指定相机信息的URL地址
     camera_info_url: "package://webcamera_node/config/camera_info.yaml"
     # 启用调试模式
-    debug: true
+    debug: false
+    # 设置图像的编码格式（支持bgr8,jpeg）
+    encoding: "bgr8"
